@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gastronomia - La Buteghina</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <header>
+    <div class="contenitore">
+
+        <div class="logo">
+            <img src="images/logo/logo.png" alt="La Buteghina">
+        </div>
+
+    <button class="menu-toggle" id="menu-toggle">
+        ☰
+    </button>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gastronomia.html">Gastronomia</a></li>
+                <li><a href="negozio-sfuso.html">Negozio Sfuso</a></li>
+                <li><a href="bomboniere.html">Bomboniere</a></li>
+                <li><a href="eventi-catering.html">Eventi e Catering</a></li>
+                <li><a href="Contatti.html">Contatti</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+
+<section class="hero-gastronomia">
+
+    <img src="images/gastronomia/copertina.jpg" alt="Gastronomia La Buteghina">
+
+    <div class="hero-overlay">
+        <h1>Gastronomia</h1>
+
+        <p>
+            Piatti preparati artigianalmente, ingredienti di stagione
+            e un menù che cambia ogni settimana.
+        </p>
+
+        <a href="menu.html" class="btn-verde">
+            Scopri il menù della settimana
+        </a>
+
+    </div>
+
+</section>
+
+
+<section class="intro-gastronomia">
+
+    <h2>La nostra cucina</h2>
+
+    <p>
+        Ogni settimana prepariamo una selezione diversa di primi,
+        secondi, contorni, piatti unici, prodotti da forno e dolci.
+
+        Cuciniamo in piccoli lotti, privilegiando ingredienti di
+        stagione e ricette sempre nuove, così da offrirti sempre
+        qualcosa di diverso.
+    </p>
+
+</section>
+
+<section class="sezione-galleria-gastronomia">
+
+    <h2>Alcune delle nostre preparazioni</h2>
+
+    <p>
+        Dalle focaccine appena sfornate ai piatti pronti, ogni preparazione nasce da ingredienti selezionati e da una cucina fatta con cura.
+    </p>
+
+    <div class="galleria-gastro">
+
+        <img src="images/Gastronomia/copertina.jpg" alt="Focaccine">
+        <img src="images/Gastronomia/gyoza.jpg" alt="Gyoza">
+        <img src="images/Gastronomia/cappellacci.jpg" alt="Tortelloni">
+        <img src="images/Gastronomia/sushi.jpg" alt="Sushi">
+        <img src="images/Gastronomia/orzo-insalata.jpg" alt="Insalata di orzo">
+        <img src="images/Gastronomia/involtini-zucchine.jpg" alt="Involtini di zucchine">
+
+    </div>
+
+    <a href="galleria-gastronomia.html" class="btn-galleria">Guarda tutta la galleria →</a>
+
+</section>
+
+<section class="sezione-finale-gastronomia">
+
+    <h2>Menù aggiornato ogni settimana</h2>
+
+    <p>
+        Le nostre preparazioni cambiano seguendo la stagionalità e gli ingredienti disponibili.
+        Scopri il menù della settimana oppure prenota il tuo pasto direttamente su WhatsApp.
+    </p>
+
+    <div class="bottoni-finale-gastronomia">
+
+        <a href="menu.html" class="btn-menu">
+            📋 Scopri il menù aggiornato
+        </a>
+
+        <a href="https://wa.me/39XXXXXXXXXX" class="btn-whatsapp">
+            💬 Prenota il tuo pasto
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+<!-- ========================================= -->
+<!-- FINALE GASTRONOMIA -->
+<!-- ========================================= -->
+
+<section class="finale-gastronomia">
+
+    <div class="finale-gastro-box">
+
+        <h2>Hai un evento da organizzare?</h2>
+
+        <p>
+            Compleanni, lauree, aperitivi, picnic, catering e box personalizzate.
+            Realizziamo proposte su misura per ogni occasione.
+        </p>
+
+        <a href="eventi-catering.html" class="btn-eventi">
+            Scopri Eventi e Catering →
+        </a>
+
+    </div>
+
+</section>
+
+  <footer>
+
+    <div class="footer-logo">
+
+            <h2>La Buteghina</h2>
+
+            <p>Quello che vuoi, quanto ne vuoi.</p>
+
+        </div>
+    <div class="footer-contenitore">
+
+        <div class="footer-colonna">
+
+            <h3>Vieni a trovarci</h3>
+
+            <p>
+                Via Camillo Benso Conte di Cavour, 26<br>
+                28043 Bellinzago Novarese (NO)
+            </p>
+
+        </div>
+
+        <div class="footer-colonna">
+
+            <h3>Contatti</h3>
+
+            <p>📞 379 168 1925</p>
+
+            <p>✉️ labuteghina@gmail.com</p>
+
+            <p>P. IVA 02621060033</p>
+
+        </div>
+
+        <div class="footer-colonna">
+
+            <h3>Seguici</h3>
+
+            <p>Instagram</p>
+
+            <p>Facebook</p>
+
+            <p>TikTok</p>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 La Buteghina • Tutti i diritti riservati
+
+    </div>
+
+</footer>
+
+</section>
+
+<script src="script.js"></script>
+
+<script>
+const menuToggle = document.getElementById("menu-toggle");
+const menu = document.getElementById("menu");
+
+menuToggle.addEventListener("click", () => {
+    menu.classList.toggle("aperto");
+});
+</script>
+</body>
+
+</html>
