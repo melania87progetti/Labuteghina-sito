@@ -844,28 +844,30 @@
 
     }
 
-}
 
-/* EVENTI BENTO */
 
-.evento-contenuto{
-    grid-template-columns: 1fr;
-    gap: 30px;
-}
+    /* EVENTI BENTO */
 
-.evento-locandina{
-    position: relative;
-    top: auto;
-}
+    .evento-contenuto{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 
-.galleria-box{
-    display: flex;
-    justify-content:center;
-    gap:15px;
-    flex-wrap:nowrap;
-}
+    .evento-locandina{
+        position: relative;
+        top: auto;
+    }
 
-.galleria-box img{
-    width: 48%;
-    max-width: 170px;
+    .galleria-box{
+        display: flex;
+        justify-content:center;
+        gap:15px;
+        flex-wrap:nowrap;
+    }
+
+    .galleria-box img{
+        width: 48%;
+        max-width: 170px;
+    }
+
 }
