@@ -850,3 +850,24 @@
     }
 
 }
+
+/* EVENTI BENTO */
+
+.evento-contenuto{
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.evento-locandina{
+    position: relative;
+    top: auto;
+}
+
+.galleria-box{
+    justify-content: center;
+}
+
+.galleria-box img{
+    width: 45%;
+    max-width: 180px;
+}
