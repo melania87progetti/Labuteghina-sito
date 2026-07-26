@@ -859,7 +859,7 @@
 }
 
 .galleria-box{
-    justify-content: center;
+    display: flex;
     justify-content:center;
     gap:15px;
     flex-wrap:nowrap;
