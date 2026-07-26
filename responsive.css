@@ -870,4 +870,15 @@
         max-width: 170px;
     }
 
+    .galleria-box a{
+    width:48%;
+    display:block;
+    }
+
+    .galleria-box img{
+    width:100%;
+    max-width:none;
+    display:block;
+    }
+
 }
