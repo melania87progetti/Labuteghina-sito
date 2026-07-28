@@ -2758,3 +2758,265 @@ transform:translateY(-3px);
     transform:scale(1.05);
 
 }
+
+/* ========================================= */
+/* ESPERIENZE PERSONALIZZATE */
+/* ========================================= */
+
+.hero-esperienze{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:
+        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+        url("images/logo-esperienze-personalizzate.png");
+
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+}
+
+.hero-box{
+
+    backdrop-filter:blur(12px);
+
+    background:rgba(255,255,255,.12);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    border-radius:25px;
+
+    padding:50px;
+
+    max-width:700px;
+
+    text-align:center;
+
+}
+
+.hero-box h1{
+    color:white;
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero-box p{
+    color:white;
+    font-size:1.2rem;
+    margin-bottom:35px;
+}
+
+.servizi-eventi{
+
+    padding:100px 8%;
+
+}
+
+.griglia-servizi{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+    margin-top:60px;
+
+}
+
+.card-servizio{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.card-servizio:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 25px 50px rgba(0,0,0,.15);
+
+}
+
+.card-servizio h3{
+
+    color:#294c2b;
+
+    margin-bottom:18px;
+
+}
+
+.card-servizio p{
+
+    line-height:1.8;
+
+    color:#555;
+
+}
+
+.come-lavoriamo{
+
+padding:100px 8%;
+
+background:#f8f8f8;
+
+text-align:center;
+
+}
+
+.step-eventi{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:35px;
+
+margin-top:60px;
+
+}
+
+.step{
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.step span{
+
+width:60px;
+
+height:60px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+background:#294c2b;
+
+color:white;
+
+font-size:28px;
+
+font-weight:bold;
+
+border-radius:50%;
+
+margin:auto auto 25px;
+
+}
+
+.cta-eventi{
+
+    padding:40px 20px 70px;
+
+    display:flex;
+
+    justify-content:center;
+
+    background:#f7f7f7;
+
+}
+
+.cta-box{
+
+    max-width:800px;
+
+    width:100%;
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:60px;
+
+    text-align:center;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+
+}
+
+.cta-box h2{
+
+    font-size:42px;
+
+    color:#294c2b;
+
+    margin-bottom:20px;
+
+}
+
+.cta-box p{
+
+    font-size:19px;
+
+    line-height:1.8;
+
+    color:#555;
+
+    margin-bottom:35px;
+
+}
+
+.intro-esperienze{
+    padding:50px 20px 20px;
+    display:flex;
+    justify-content:center;
+}
+
+.intro-card{
+    max-width:900px;
+    background:#f6f4ef;
+    border:1px solid #d7c8a5;
+    border-left:6px solid #55724b;
+    border-radius:18px;
+    padding:45px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.intro-card h2{
+    font-size:2.4rem;
+    color:#2f5132;
+    margin-bottom:25px;
+}
+
+.intro-card p{
+    font-size:1.1rem;
+    line-height:1.9;
+    color:#555;
+    margin-bottom:20px;
+}
+
+.intro-card p:last-child{
+    margin-bottom:0;
+}
+
+.intro-card h2::after{
+    content:"";
+    display:block;
+    width:80px;
+    height:4px;
+    background:#6d8a5d;
+    border-radius:10px;
+    margin:18px auto 0;
+}

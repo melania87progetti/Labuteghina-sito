@@ -882,3 +882,98 @@
     }
 
 }
+
+/* ========================================= */
+/* ESPERIENZE PERSONALIZZATE */
+/* ========================================= */
+
+@media(max-width:768px){
+
+    .hero-esperienze{
+    padding:70px 20px 50px;
+}
+
+.hero-esperienze img{
+    max-width:220px;
+}
+
+.hero-esperienze h1{
+    font-size:2rem;
+}
+
+.hero-esperienze p{
+    font-size:1rem;
+}
+
+.hero-box{
+    width:90%;
+    padding:35px 25px;
+}
+
+.intro-card{
+    padding:35px 25px;
+}
+
+.intro-card h2{
+    font-size:2rem;
+}
+
+.intro-card p{
+    font-size:1rem;
+    line-height:1.8;
+}
+
+.servizi-eventi,
+.come-lavoriamo,
+.intro-esperienze{
+    padding:60px 20px;
+}
+
+.griglia-servizi{
+    grid-template-columns:1fr;
+    gap:20px;
+    margin-top:35px;
+}
+
+.card-servizio{
+    padding:25px;
+}
+
+.step-eventi{
+    grid-template-columns:1fr;
+    gap:20px;
+    margin-top:35px;
+}
+
+.step{
+    padding:25px;
+}
+
+.btn-hero,
+.btn-whatsapp{
+    width:100%;
+    text-align:center;
+}
+
+}
+
+@media (max-width:480px){
+
+    .hero-esperienze h1{
+        font-size:1.8rem;
+    }
+
+    .intro-card h2{
+        font-size:1.6rem;
+    }
+
+    .titolo-sezione h2{
+        font-size:1.8rem;
+    }
+
+    .card-servizio,
+    .step{
+        padding:20px;
+    }
+
+}
