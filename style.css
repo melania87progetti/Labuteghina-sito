@@ -2158,8 +2158,22 @@ transform:translateY(-3px);
 }
 
 /* ========================================= */
+/* COMPONENTI RIUTILIZZABILI */
+/* ========================================= */
+
+.box-sezione {
+    max-width: 900px;
+    margin: auto;
+    background: #f8f6f2;
+    border-radius: 25px;
+    padding: 70px 50px;
+    text-align: center;
+}
+
+/* ========================================= */
 /* CARD EVENTI E CATERING */
 /* ========================================= */
+
 
 .esperienze{
 
