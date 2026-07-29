@@ -970,44 +970,44 @@
 
     /* COLLEZIONI BENTO */
 
-.griglia-collezioni{
+    .griglia-collezioni{
     grid-template-columns:1fr;
     gap:25px;
     margin-top:40px;
-}
+    }
 
-.card-collezione{
+    .card-collezione{
     padding:30px 25px;
-}
+    }
 
-.card-collezione h3{
+    .card-collezione h3{
     font-size:34px;
-}
+    }
 
-.card-collezione p{
+    .card-collezione p{
     font-size:17px;
     margin-bottom:20px;
-}
+    }
 
-.badge-bento{
+    .badge-bento{
     font-size:11px;
-}
+    }
 
-.card-collezione:hover{
+    .card-collezione:hover{
     transform:none;
-}
+    }
 
-.evento-bento{
+    .evento-bento{
     padding:40px 20px 70px;
-}
+    }
 
-.titolo-evento h2{
+    .titolo-evento h2{
     font-size:34px;
-}
+    }
 
-.evento-contenuto{
+    .evento-contenuto{
     grid-template-columns:1fr;
-}
+    }
 
 }
 
