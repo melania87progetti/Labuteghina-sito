@@ -1155,6 +1155,7 @@ transform:translateY(-3px);
     margin: 70px auto;
     border-top: 3px solid #4f7a40;
     border-bottom: 3px solid #4f7a40;
+    border-radius: 25px;
 }
 
 .intro-gastronomia h2 {
