@@ -925,7 +925,7 @@
 /* ========================================= */
 /* COLLEZIONI BENTO */
 /* ========================================= */
-@media(mxa-width:768px){
+@media(max-width: 768px){
 
     .griglia-collezioni{
 
@@ -967,6 +967,47 @@
     max-width:none;
     display:block;
     }
+
+    /* COLLEZIONI BENTO */
+
+.griglia-collezioni{
+    grid-template-columns:1fr;
+    gap:25px;
+    margin-top:40px;
+}
+
+.card-collezione{
+    padding:30px 25px;
+}
+
+.card-collezione h3{
+    font-size:34px;
+}
+
+.card-collezione p{
+    font-size:17px;
+    margin-bottom:20px;
+}
+
+.badge-bento{
+    font-size:11px;
+}
+
+.card-collezione:hover{
+    transform:none;
+}
+
+.evento-bento{
+    padding:40px 20px 70px;
+}
+
+.titolo-evento h2{
+    font-size:34px;
+}
+
+.evento-contenuto{
+    grid-template-columns:1fr;
+}
 
 }
 
