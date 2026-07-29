@@ -3034,3 +3034,245 @@ margin:auto auto 25px;
     border-radius:10px;
     margin:18px auto 0;
 }
+
+/* HERO CATERING */
+
+.hero-catering{
+    position:relative;
+    width:100%;
+    height:90vh;
+    background-image:url("images/catering/hero-catering.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.35);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    text-align:center;
+
+    background:#fdfbf7;
+    color:#444;
+
+    max-width:560px;
+    width:100%;
+
+    padding:55px;
+
+    border-top:3px solid #6f8b57;
+    border-bottom:3px solid #6f8b57;
+    border-left:none;
+    border-right:none;
+    border-radius:20px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+}
+
+.hero-tag{
+    display:inline-block;
+    padding:8px 20px;
+    background:#6f8b57;
+    color:#fff;
+    border-radius:3opx;
+    font-weight:600;
+    letter-spacing:4px;
+    font-size:14px;
+    margin-bottom:25px;
+    text-transform:uppercase;
+}
+
+.hero-content h1{
+    font-size:68px;
+    color:#2f2f2f;
+    margin-bottom:20px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.hero-content p{
+    font-size:22px;
+    color:#666;
+    line-height:1.7;
+    margin-bottom:45px;
+}
+
+.btn-hero{
+    display:inline-block;
+    padding:16px 38px;
+    background:#6f8b57;
+    color:#fff;
+    text-decoration:none;
+    border-radius:40px;
+    transition:.3s;
+}
+
+.btn-hero:hover{
+    background:#5d7448;
+}
+
+.intro-catering{
+    margin-top:60px;
+    margin-bottom:90px;
+
+    position:relative;
+    z-index:10;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:0 20px;
+
+}
+
+/* GALLERIA CATERING */
+
+.galleria-catering{
+    padding:60px 20px 40px;
+    background:#fff;
+}
+
+.galleria-catering .container{
+    max-width:1000px;
+    margin:auto;
+}
+
+.galleria-catering h2{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:15px;
+    font-family:"Cormorant Garamond", serif;
+}
+
+.galleria-catering p{
+    text-align:center;
+    color:#666;
+    max-width:700px;
+    margin:0 auto 50px;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.gallery-grid a{
+    display:block;
+    overflow:hidden;
+    border-radius:20px;
+}
+
+.gallery-grid img{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    display:block;
+    transition:.35s;
+}
+
+.gallery-grid img:hover{
+    transform:scale(1.05);
+}
+
+/* PREVENTIVO CATERING */
+
+.preventivo{
+    padding:100px 20px;
+    background:#f8f6f2;
+    text-align:center;
+}
+
+.preventivo .container{
+    max-width:800px;
+    margin:0 auto;
+}
+
+.preventivo h2{
+    font-size:48px;
+    color:#2f2f2f;
+    margin-bottom:20px;
+    font-family:"Cormorant Garamond", serif;
+}
+
+.preventivo p{
+    font-size:20px;
+    color:#666;
+    line-height:1.8;
+}
+
+.preventivo{
+    padding:100px 20px;
+    background:#f8f6f2;
+}
+
+.preventivo .container{
+    max-width:900px;
+    margin:auto;
+}
+
+.preventivo h2{
+    text-align:center;
+    font-size:52px;
+    color:#2f2f2f;
+    margin-bottom:20px;
+    font-family:"Cormorant Garamond", serif;
+}
+
+.intro-preventivo{
+    text-align:center;
+    max-width:650px;
+    margin:0 auto 50px;
+    color:#666;
+    line-height:1.8;
+}
+
+.form-preventivo{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.form-row{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.form-preventivo input,
+.form-preventivo select,
+.form-preventivo textarea{
+    width:100%;
+    padding:16px;
+    border:1px solid #d8d8d8;
+    border-radius:12px;
+    font-size:16px;
+    background:#fff;
+    font-family:inherit;
+    box-sizing:border-box;
+}
+
+.form-preventivo textarea{
+    resize:vertical;
+}
+
+.form-preventivo input:focus,
+.form-preventivo select:focus,
+.form-preventivo textarea:focus{
+    outline:none;
+    border-color:#6f8b57;
+}
+
+.form-preventivo .btn-hero{
+    align-self:center;
+    margin-top:20px;
+}

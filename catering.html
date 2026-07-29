@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="responsive.css">
 </head>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
 <body>
 
     <header>
@@ -39,6 +41,118 @@
 </header>
 <main>
 
+<section class="hero-catering">
+
+    <div class="hero-overlay"></div>
+
+</section>
+
+<section class="intro-catering">
+
+    <div class="hero-content">
+
+        <span class="hero-tag">LA BUTEGHINA</span>
+
+        <h1>Catering</h1>
+
+        <p>
+            Buffet, aperitivi e menù personalizzati<br>
+            per rendere speciale ogni occasione.
+        </p>
+
+        <a href="#preventivo" class="btn-hero">
+            Richiedi un preventivo
+        </a>
+
+    </div>
+</section>
+
+<section class="galleria-catering">
+
+    <div class="container">
+
+        <h2>Alcune delle nostre realizzazioni</h2>
+
+        <p>
+            Una selezione di buffet, aperitivi e preparazioni realizzate per i nostri clienti.
+        </p>
+    </div>
+
+        <div class="gallery-grid">
+
+            <!-- 9 immagini -->
+            <a href="images/catering/bun-burgerjpg" class="glightbox" data-gallery="catering"><img src="images/catering/bun-burger.jpg" alt="Catering La Buteghina"></a>
+            <a href="images/catering/gnocchi-romana.jpg" class="glightbox" data-gallery="catering"><img src="images/catering/gnocchi-romana.jpg" alt="Catering La Buteghina"></a>
+            <a href="images/catering/involtini-verze.jpg" class="glightbox" data-gallery="catering"><img src="images/catering/involtini-verze.jpg" alt=""></a>
+
+            <a href="images/catering/patate-salsiccia.jpg" class="glightbox" data-gallery="catering"><img src="images/catering/patate-salsiccia.jpg" alt="Catering La Buteghina"></a>
+            <a href="images/catering/pizzette.jpg" class="glightbox" data-gallery="catering"><img src="images/catering/pizzette.jpg" alt="Catering La Buteghina"></a>
+            <a href="images/catering/schiacciata-zucchine.jpg" class="glightbox" data-gallery="catering"><img src="images/catering/schiacciata-zucchine.jpg" alt=""></a>
+
+            <a href="images/catering/spaghetti-saltati.jpg" class="glightbox" data-gallery="catering"><img src="images/catering/spaghetti-saltati.jpg" alt="Catering La Buteghina"></a>
+            <a href="images/catering/spiedini.jpg" class="glightbox" data-gallery="catering"><img src="images/catering/spiedini.jpg" alt="Catering La Buteghina"></a>
+            <a href="images/catering/vatruski.jpg" class="glightbox" data-gallery="catering"><img src="images/catering/vatruski.jpg" alt="Catering La Buteghina"></a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="preventivo" class="preventivo">
+
+    <div class="container">
+
+        <span class="section-tag">LA BUTEGHINA</span>
+
+        <h2>Richiedi un preventivo</h2>
+
+        <p class="intro-preventivo">
+            Compila il modulo qui sotto e raccontaci il tuo evento.
+            Ti ricontatteremo con una proposta personalizzata.
+        </p>
+
+        <form class="form-preventivo">
+
+            <div class="form-row">
+                <input type="text" placeholder="Nome e Cognome" required>
+                <input type="email" placeholder="Email" required>
+            </div>
+
+            <div class="form-row">
+                <input type="tel" placeholder="Telefono">
+                <input type="date">
+            </div>
+
+            <div class="form-row">
+                <input type="text" placeholder="Luogo dell'evento">
+                <input type="number" placeholder="Numero invitati">
+            </div>
+
+            <select>
+                <option selected disabled>Tipologia di evento</option>
+                <option>Compleanno</option>
+                <option>Battesimo</option>
+                <option>Comunione</option>
+                <option>Cresima</option>
+                <option>Laurea</option>
+                <option>Matrimonio</option>
+                <option>Evento aziendale</option>
+                <option>Aperitivo</option>
+                <option>Altro</option>
+            </select>
+
+            <textarea rows="6" placeholder="Raccontaci il tuo evento e le tue richieste..."></textarea>
+
+            <button type="submit" class="btn-hero">
+                Invia richiesta
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
 
 </main>
     <footer>
@@ -96,6 +210,16 @@
     </div>
 
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+<script>
+const lightbox = GLightbox({
+    touchNavigation: true,
+    loop: true,
+    zoomable: true
+});
+</script>
 
 </body>
 
