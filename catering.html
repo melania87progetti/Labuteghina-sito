@@ -123,21 +123,21 @@
         <input type="hidden" name="_next" value="grazie.html">
 
             <div class="form-row">
-                <input type="text" placeholder="Nome e Cognome" required>
-                <input type="email" placeholder="Email" required>
+                <input type="text" name="nome" placeholder="Nome e Cognome" required>
+                <input type="email" name="email" placeholder="Email" required>
             </div>
 
             <div class="form-row">
-                <input type="tel" placeholder="Telefono">
-                <input type="date">
+                <input type="tel" name="telefono" placeholder="Telefono">
+                <input type="date" name="data">
             </div>
 
             <div class="form-row">
-                <input type="text" placeholder="Luogo dell'evento">
-                <input type="number" placeholder="Numero invitati">
+                <input type="text" name="luogo" placeholder="Luogo dell'evento">
+                <input type="number" name="invitati" placeholder="Numero invitati">
             </div>
 
-            <select>
+            <select name="tipologia">
                 <option selected disabled>Tipologia di evento</option>
                 <option>Compleanno</option>
                 <option>Battesimo</option>
@@ -150,7 +150,7 @@
                 <option>Altro</option>
             </select>
 
-            <textarea rows="6" placeholder="Raccontaci il tuo evento e le tue richieste..."></textarea>
+            <textarea name="messaggio" rows="6" placeholder="Raccontaci il tuo evento e le tue richieste..."></textarea>
 
             <button type="submit" class="btn-hero">
                 Invia richiesta
