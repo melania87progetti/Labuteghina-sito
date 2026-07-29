@@ -831,20 +831,107 @@
 
 }
 
+/* =======================================
+   EVENTI & CATERING
+======================================= */
 
-@media(max-width:768px){
+@media (max-width:768px){
+
+    /* Hero */
+
+    .hero-eventi{
+        min-height:auto;
+        padding:90px 20px 70px;
+    }
+
+    .hero-content{
+        max-width:100%;
+        padding:35px 25px;
+        border-radius:22px;
+    }
+
+    .hero-content h1{
+        font-size:2.2rem;
+        line-height:1.2;
+    }
+
+    .hero-content p{
+        font-size:1rem;
+    }
+
+    .hero-badge{
+        font-size:.72rem;
+        letter-spacing:2px;
+    }
+
+    .btn-hero{
+        width:100%;
+        text-align:center;
+    }
+
+
+    /* Card */
+
+    .esperienze{
+        padding:70px 20px;
+    }
+
+    .griglia-esperienze{
+        grid-template-columns:1fr;
+        gap:25px;
+        margin-top:40px;
+    }
+
+    .card-esperienza{
+        width:100%;
+        padding:35px 28px;
+    }
+
+    .icona-esperienza{
+        width:70px;
+        height:70px;
+        font-size:30px;
+    }
+
+    .card-esperienza h3{
+        font-size:1.8rem;
+    }
+
+    .card-esperienza p{
+        font-size:1rem;
+    }
+
+
+    /* CTA */
+
+    .cta-eventi{
+        padding:70px 20px;
+    }
+
+    .cta-eventi-box{
+        padding:45px 25px;
+    }
+
+    .cta-eventi-box h2{
+        font-size:2rem;
+    }
+
+    .cta-eventi-box p{
+        font-size:1rem;
+    }
+
+}
 
 /* ========================================= */
 /* COLLEZIONI BENTO */
 /* ========================================= */
+@media(mxa-width:768px){
 
     .griglia-collezioni{
 
         grid-template-columns:1fr;
 
     }
-
-
 
     /* EVENTI BENTO */
 

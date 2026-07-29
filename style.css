@@ -1112,6 +1112,12 @@ transform:translateY(-3px);
     box-shadow: 0 15px 40px rgba(0,0,0,.15);
 }
 
+.hero-gastro-content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
 .hero-gastronomia h1 {
     font-size: 3rem;
     color: #2d2d2d;
@@ -1418,9 +1424,7 @@ transform:translateY(-3px);
     background:#3f6633;
 }
 
-/* ========================================= */
-/* NEGOZIO SFUSO */
-/* ========================================= */
+
 /* ==================================== */
 /* HERO NEGOZIO SFUSO */
 /* ==================================== */
