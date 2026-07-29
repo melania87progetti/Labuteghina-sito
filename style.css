@@ -2157,23 +2157,10 @@ transform:translateY(-3px);
     transform:translateY(-3px);
 }
 
-/* ========================================= */
-/* COMPONENTI RIUTILIZZABILI */
-/* ========================================= */
-
-.box-sezione {
-    max-width: 900px;
-    margin: auto;
-    background: #f8f6f2;
-    border-radius: 25px;
-    padding: 70px 50px;
-    text-align: center;
-}
 
 /* ========================================= */
 /* CARD EVENTI E CATERING */
 /* ========================================= */
-
 
 .esperienze{
 
@@ -2445,18 +2432,20 @@ transform:translateY(-3px);
 
     padding:100px 8%;
 
-    background:#f8f6f2;
+    background:#ffffff;
 
 }
 
 .intro-bento-contenitore{
-
     max-width:900px;
-
     margin:auto;
+    padding:70px 50px;
+
+    border-top:2px solid #8ea77c;
+    border-bottom:2px solid #8ea77c;
+    border-radius:25px;
 
     text-align:center;
-
 }
 
 .intro-bento h2{
@@ -2485,7 +2474,7 @@ transform:translateY(-3px);
 
 .collezioni-bento{
 
-    padding:100px 8%;
+    padding:30px 8% 100px;
 
     background:#ffffff;
 
