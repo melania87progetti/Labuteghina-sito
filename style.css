@@ -41,7 +41,8 @@ header{
 }
 
 .logo img{
-    filter: drop-shadow(0 0 8px rgba(114,179,93,.20));
+    filter: drop-shadow(0 0 8px rgba(255,255,255,.12));
+    filter: drop-shadow(0 0 20px rgba(181,145,94,.18));
 }
 
 nav ul{
@@ -64,21 +65,43 @@ nav a:hover{
 }
 
 .hero{
+    position:relative;
+    overflow:hidden;
 
     height:75vh;
-
     background:#222;
 
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     text-align:center;
 
     color:white;
+}
 
+.hero-contenuto{
+    position:relative;
+    z-index:2;
+}
+
+.pothos-left{
+    position:absolute;
+    top:0;
+    left:0;
+    width:170px;
+    z-index:0;
+    opacity:.75;
+    pointer-events:none;
+}
+
+.pothos-right{
+    position:absolute;
+    top:0;
+    right:0;
+    width:170px;
+    z-index:0;
+    opacity:.75;
+    pointer-events:none;
 }
 
 .hero-contenuto h1{
@@ -336,12 +359,16 @@ z-index:10;
     transition:.3s;
 }
 
-.testo-card span{
+.testo-card a{
     color:#2c9b52;
     font-weight:700;
+    text-decoration:none;
+    display:inline-block;
+    transition:.3s;
 }
 
-.card-servizio:hover span{
+.card-servizio:hover a{
+    color:#45b96c;
     transform:translateX(8px);
 }
 
@@ -662,6 +689,16 @@ footer{
     color:#cfcfcf;
     line-height:1.5;
     margin-bottom:10px;
+}
+
+.footer-colonna a{
+    color:#ffffff;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.footer-colonna a:hover{
+    color:#8bcf7a;
 }
 
 .copyright{
