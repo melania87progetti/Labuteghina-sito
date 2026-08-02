@@ -48,7 +48,7 @@ header{
 nav ul{
     display:flex;
     list-style:none;
-    gap:55px;
+    gap:35px;
 }
 
 nav a{
