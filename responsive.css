@@ -175,6 +175,11 @@
 
     }
 
+    .hero-foglia-sx,
+    .hero-foglia-dx{
+    display: none;
+    }
+
     .hero-text h1{
 
         font-size:42px;
