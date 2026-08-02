@@ -21,7 +21,7 @@
 
     .pothos-left,
     .pothos-right{
-        display: none;
+        display: none !important;
     }
 
     header{
@@ -97,7 +97,7 @@
 
     .pothos-left,
     .pothos-right{
-    display: none;
+    display: none !important;
     }
 
     .contenitore{
@@ -177,7 +177,7 @@
 
     .pothos-left,
     .pothos-right{
-    display: none;
+    display: none !important;
     }
 
     .hero-text h1{
