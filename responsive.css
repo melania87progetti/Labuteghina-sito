@@ -19,6 +19,10 @@
         padding:70px 20px;
     }
 
+    .hero-foglia-sx,
+    .hero-foglia-dx{
+        display: none;
+    }
 
     header{
         padding:18px 25px;
@@ -89,6 +93,11 @@
 
     header{
         padding:15px 20px;
+    }
+
+    .hero-foglia-sx,
+    .hero-foglia-dx{
+    display: none;
     }
 
     .contenitore{
@@ -488,6 +497,8 @@
     .hero-sfuso p{
         font-size:18px;
     }
+    
+    
 
     .hero-sfuso-testo{
         padding:35px 25px;
