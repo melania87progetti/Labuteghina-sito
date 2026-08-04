@@ -3513,12 +3513,12 @@ body.natale{
 .info-importante-natale{
     width:90%;
     max-width:900px;
-    margin:60px auto;
-    padding:35px 45px;
+    margin:70px auto;
+    padding:5px 45px 5px;
     background:#fffdf7;
-    border-radius:25px;
+    border-radius:30px;
     border-left:8px solid #b48a52;
-    box-shadow:0 10px 30px rgba(0,0,0,.12);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
 }
 
 .info-importante-natale h3{
@@ -3562,12 +3562,12 @@ body.natale{
 
 .greca-natale{
     display:block;
-    width:260px;
-    max-width:70%;
+    width:500px;
+    max-width:90%;
     height:auto;
-    margin:18px auto;
+    margin:0 auto 10px;
 }
 
 .info-importante .greca-info:last-child{
-    margin:25px auto 0;
+    margin:10px auto 5px;
 }
