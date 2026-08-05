@@ -3970,6 +3970,10 @@ body.natale{
 
 }
 
+.popup-natale.attivo{
+    display:flex;
+}
+
 .popup-natale img{
 
     max-width:700px;
