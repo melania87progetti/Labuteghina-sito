@@ -429,7 +429,7 @@ Privacy Policy
 </div>
 
 </section>
-</form>
+
 <section class="galleria-natale">
 
     <h2>Lasciati ispirare</h2>
@@ -499,13 +499,20 @@ Privacy Policy
     </div>
 </div>
 
+<div id="popupNatale" class="popup-natale">
+    <span class="chiudi" onclick="chiudiPopup()">&times;</span>
+
+<button class="freccia sinistra" onclick="precedente()">&#10094;</button>
+
+<img id="fotoGrande" src="" alt="">
+
+<div class="info-box">
+    <h3 id="titoloBox"></h3>
+    <p id="descrizioneBox"></p>
+    <h4 id="prezzoBox"></h4>
 </div>
 
-<div id="lightbox" class="lightbox">
-    <span class="close">&times;</span>
-    <button class="prev">&#10094;</button>
-    <img id="lightbox-img">
-    <button class="next">&#10095;</button>
+<button class="freccia destra" onclick="successiva()">&#10095;</button>
 </div>
 
 </section>
@@ -579,9 +586,7 @@ Privacy Policy
     </div>
 </footer>
 
-<script src="script.js"></script>
-
-<script src="script.js"></script>
+<script src="natalescript.js"></script>
 
 <script>
 const menuToggle = document.getElementById("menu-toggle");
