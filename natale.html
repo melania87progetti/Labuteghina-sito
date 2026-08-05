@@ -106,6 +106,8 @@
 
 </div>
 
+<form action="invia.php" method="post">
+
 <section class="modulo-natale">
 
     <h2>🎁 Inizia a creare la tua confezione Natalizia</h2>
@@ -169,7 +171,7 @@
 
 <div class="campo-modulo" style="margin-top:25px;">
     <label>Per quante persone è pensato il regalo?</label>
-    <input type="number" min="1" placeholder="Es. 4">
+    <input type="number" name="persone" min="1" placeholder="Es. 4">
 </div>
 
 <h2 class="titolo-modulo-natale">
@@ -222,7 +224,7 @@
 
 <label>Numero di confezioni</label>
 
-<input type="number" min="1" value="1">
+<input type="number" name="quantita" min="1" value="1">
 
 </div>
 
@@ -244,13 +246,13 @@ Tutte diverse</label>
 
 <div class="griglia-natale">
 
-<label><input type="radio" name="confezione">
+<label><input type="radio" name="confezione" value="Box regalo">
 Box regalo</label>
 
-<label><input type="radio" name="confezione">
+<label><input type="radio" name="confezione" value="Cesto aperto">
 Cesto aperto</label>
 
-<label><input type="radio" name="confezione">
+<label><input type="radio" name="confezione" value="Mi affido alla Buteghina">
 Mi affido alla Buteghina</label>
 
 </div>
@@ -265,45 +267,45 @@ Mi affido alla Buteghina</label>
 
 <div class="griglia-natale">
 
-<label><input type="checkbox"> Pasta</label>
+<label><input type="checkbox" name="prodotti[]" value="Pasta"></label>
 
-<label><input type="checkbox"> Riso</label>
+<label><input type="checkbox" name="prodotti[]" value="Riso"></label>
 
-<label><input type="checkbox"> Sughi</label>
+<label><input type="checkbox" name="prodotti[]" value="Sughi"></label>
 
-<label><input type="checkbox"> Spezie</label>
+<label><input type="checkbox" name="prodotti[]" value="Spezie"></label>
 
-<label><input type="checkbox"> Sale</label>
+<label><input type="checkbox" name="prodotti[]" value="Sale"></label>
 
-<label><input type="checkbox"> Olio</label>
+<label><input type="checkbox" name="prodotti[]" value="Olio"></label>
 
-<label><input type="checkbox"> Aceto</label>
+<label><input type="checkbox" name="prodotti[]" value="Aceto"></label>
 
-<label><input type="checkbox"> Tè</label>
+<label><input type="checkbox" name="prodotti[]" value="Tè"></label>
 
-<label><input type="checkbox"> Tisane</label>
+<label><input type="checkbox" name="prodotti[]" value="Tisane"></label>
 
-<label><input type="checkbox"> Biscotti</label>
+<label><input type="checkbox" name="prodotti[]" value="Biscotti"></label>
 
-<label><input type="checkbox"> Miele</label>
+<label><input type="checkbox" name="prodotti[]" value="Miele"></label>
 
-<label><input type="checkbox"> Confetture</label>
+<label><input type="checkbox" name="prodotti[]" value="Confetture"></label>
 
-<label><input type="checkbox"> Creme spalmabili</label>
+<label><input type="checkbox" name="prodotti[]" value="Creme spalmabili"></label>
 
-<label><input type="checkbox"> Cioccolato</label>
+<label><input type="checkbox" name="prodotti[]" value="Cioccolato"></label>
 
-<label><input type="checkbox"> Snack salati</label>
+<label><input type="checkbox" name="prodotti[]" value="Snack salati"></label>
 
-<label><input type="checkbox"> Alcolici</label>
+<label><input type="checkbox" name="prodotti[]" value="Alcolici"></label>
 
-<label><input type="checkbox"> Vino</label>
+<label><input type="checkbox" name="prodotti[]" value="Vino"></label>
 
-<label><input type="checkbox"> Prodotti vegetali</label>
+<label><input type="checkbox" name="prodotti[]" value="Prodotti vegetali"></label>
 
-<label><input type="checkbox"> Prodotti Senza glutine</label>
+<label><input type="checkbox" name="prodotti[]" value="Prodotti senza glutine"></label>
 
-<label><input type="checkbox"> Altro</label>
+<label><input type="checkbox" name="prodotti[]" value="Altro"></label>
 
 </div>
 
@@ -318,6 +320,7 @@ Mi affido alla Buteghina</label>
 <div class="campo-modulo">
 
     <textarea
+    name="preferenze"
         rows="6"
         placeholder="Scrivi qui tutte le tue preferenze..."></textarea>
 
@@ -334,6 +337,7 @@ Mi affido alla Buteghina</label>
 <div class="campo-modulo">
 
 <textarea
+name="da_evitare"
 placeholder="Ad esempio: niente alcolici, niente piccante, allergia alla frutta secca..."
 rows="5"></textarea>
 
@@ -362,6 +366,7 @@ rows="5"></textarea>
     <label>Testo del biglietto</label>
 
     <textarea
+    name="testo_biglietto"
         rows="5"
         placeholder="Scrivi qui il messaggio da inserire nel biglietto..."></textarea>
 
@@ -393,7 +398,7 @@ rows="5"></textarea>
 
    <label>
 
-<input type="checkbox" required>
+<input type="checkbox" name="privacy" required>
 
 Ho letto e accetto la
 <a href="privacy.html" target="_blank">
@@ -414,9 +419,8 @@ Privacy Policy
 
 </div>
 
-
-
 </section>
+</form>
 
     
 </main>
@@ -450,7 +454,7 @@ Privacy Policy
                 📞 379 168 1925
             </a></p>
 
-            <p><a href="mailto:labuteghina@gmail.com">
+            <p><a href="mailto:info@labuteghina.it">
                 ✉️ labuteghina@gmail.com
             </a></p>        
 
