@@ -56,3 +56,8 @@ popup.addEventListener("click", function(e) {
         chiudiPopup();
     }
 });
+
+window.apriPopup = apriPopup;
+window.chiudiPopup = chiudiPopup;
+window.precedente = precedente;
+window.successiva = successiva;
