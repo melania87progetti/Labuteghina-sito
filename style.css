@@ -3753,6 +3753,12 @@ body.natale{
 
 }
 
+.griglia-natale input[type="radio"]{
+    width:18px;
+    height:18px;
+    accent-color:#2f5a34;
+}
+
 
 /* PRIVACY*/
 
