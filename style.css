@@ -3571,3 +3571,212 @@ body.natale{
 .info-importante .greca-info:last-child{
     margin:10px auto 5px;
 }
+
+/* MODULO */
+
+.modulo-natale{
+
+    max-width:900px;
+
+    margin:80px auto;
+
+    padding:50px;
+
+    background:#fffdf7;
+
+    border-radius:30px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+}
+
+.modulo-natale h2{
+
+    text-align:center;
+
+    color:#2f5a34;
+
+    font-size:38px;
+
+    margin-bottom:15px;
+
+}
+
+.intro-modulo{
+
+    text-align:center;
+
+    color:#666;
+
+    font-size:18px;
+
+    line-height:1.7;
+
+    margin-bottom:40px;
+
+}
+
+.modulo-natale{
+    max-width:1000px;
+    margin:40px auto 70px;
+    background:#fffdf7;
+    border-radius:30px;
+    padding:45px 50px;
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.titolo-modulo-natale{
+    text-align:center;
+    font-size:30px;
+    color:#2f5a34;
+    margin-bottom:35px;
+}
+
+.riga-modulo{
+    display:flex;
+    gap:30px;
+    margin-bottom:30px;
+}
+
+.campo-modulo{
+    flex:1;
+}
+
+.campo-modulo label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+    color:#2f5a34;
+}
+
+.campo-modulo input{
+    width:100%;
+    padding:14px 18px;
+    border:none;
+    border-radius:15px;
+    background:#ffffff;
+    font-size:16px;
+    box-sizing:border-box;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.griglia-natale{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px 40px;
+    margin-bottom:30px;
+}
+
+.griglia-natale label{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:17px;
+    color:#444;
+}
+
+.griglia-natale input[type="checkbox"]{
+    width:18px;
+    height:18px;
+    accent-color:#2f5a34;
+}
+
+.testo-modulo{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:25px;
+
+    line-height:1.7;
+
+}
+
+.campo-modulo textarea{
+
+    width:100%;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:15px;
+
+    font-size:16px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    resize:vertical;
+
+    box-sizing:border-box;
+
+}
+
+.contenitore-bottone{
+
+    text-align:center;
+
+    margin-top:50px;
+
+}
+
+.btn-natale{
+
+    background:#2f5a34;
+
+    color:white;
+
+    border:none;
+
+    border-radius:18px;
+
+    padding:18px 40px;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.btn-natale:hover{
+
+    background:#3d6f43;
+
+    transform:translateY(-3px);
+
+}
+
+.privacy-label{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:10px;
+
+    line-height:1.7;
+
+    color:#555;
+
+}
+
+.privacy-label a{
+
+    color:#2f5a34;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+}
+
+.privacy-label a:hover{
+
+    text-decoration:underline;
+
+}
