@@ -3572,7 +3572,7 @@ body.natale{
     margin:10px auto 5px;
 }
 
-/* MODULO */
+/* MODULO NATALE*/
 
 .modulo-natale{
 
@@ -3741,6 +3741,8 @@ body.natale{
 
     transition:.3s;
 
+    margin-top: 30px;
+
 }
 
 .btn-natale:hover{
@@ -3750,6 +3752,9 @@ body.natale{
     transform:translateY(-3px);
 
 }
+
+
+/* PRIVACY*/
 
 .privacy-label{
 
@@ -3778,5 +3783,89 @@ body.natale{
 .privacy-label a:hover{
 
     text-decoration:underline;
+
+}
+
+.footer-bottom{
+
+    margin-top:35px;
+
+    text-align:center;
+
+    font-size:15px;
+
+    color:#ddd;
+
+}
+
+.footer-bottom a{
+
+    color:white;
+
+    text-decoration:none;
+
+}
+
+.footer-bottom a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+.privacy-page{
+
+    padding:80px 20px;
+
+}
+
+.privacy-box{
+
+    max-width:850px;
+
+    margin:auto;
+
+    background:#fffdf7;
+
+    padding:50px;
+
+    border-radius:30px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+.privacy-box h1{
+
+    text-align:center;
+
+    color:#2f5a34;
+
+    margin-bottom:40px;
+
+}
+
+.privacy-box h2{
+
+    color:#2f5a34;
+
+    margin-top:40px;
+
+    margin-bottom:15px;
+
+}
+
+.privacy-box p,
+.privacy-box li{
+
+    line-height:1.8;
+
+    color:#555;
+
+}
+
+.privacy-box ul{
+
+    padding-left:20px;
 
 }
