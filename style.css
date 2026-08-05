@@ -3877,3 +3877,215 @@ body.natale{
     padding-left:20px;
 
 }
+
+/* GALLERIA NATALE */
+
+.galleria-natale{
+
+    max-width:1200px;
+    margin:100px auto;
+
+    padding:60px 50px;
+
+    text-align:center;
+
+    background:#fffdf7;
+
+    border-radius:30px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+}
+
+.galleria-natale h2{
+
+    font-size:2.6rem;
+    color:#2f5a34;
+    margin-bottom:20px;
+
+}
+
+.intro-galleria{
+
+    max-width:700px;
+    margin:auto;
+    margin-bottom:50px;
+    line-height:1.8;
+    color:#666;
+    font-size:18px;
+
+}
+
+.grid-galleria{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+}
+
+.grid-galleria img{
+
+    width:100%;
+
+    aspect-ratio:1;
+
+    object-fit:cover;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.grid-galleria img:hover{
+
+    transform:scale(1.05);
+
+}
+
+.popup-natale{
+
+    display:none;
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.88);
+
+    z-index:9999;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    padding:30px;
+
+}
+
+.popup-natale img{
+
+    max-width:700px;
+
+    width:90%;
+
+    border-radius:20px;
+
+}
+
+.info-box{
+
+    background:white;
+
+    max-width:700px;
+
+    width:90%;
+
+    border-radius:0 0 20px 20px;
+
+    padding:25px;
+
+}
+
+.info-box h3{
+
+    color:#2f5a34;
+
+    margin-bottom:15px;
+
+}
+
+.info-box h4{
+
+    margin-top:20px;
+
+    color:#7b3f00;
+
+    font-size:1.4rem;
+
+}
+
+.freccia{
+
+    position:absolute;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    border:none;
+
+    background:none;
+
+    color:white;
+
+    font-size:60px;
+
+    cursor:pointer;
+
+}
+
+.sinistra{
+
+    left:40px;
+
+}
+
+.destra{
+
+    right:40px;
+
+}
+
+.chiudi{
+
+    position:absolute;
+
+    top:30px;
+
+    right:40px;
+
+    color:white;
+
+    font-size:45px;
+
+    cursor:pointer;
+
+}
+
+.nome-confezione{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    padding:10px 22px;
+
+    background:#dfe9dc;
+
+    color:#2f5a34;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+.nome-confezione:hover{
+
+    background:#2f5a34;
+
+    color:white;
+
+}

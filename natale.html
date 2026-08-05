@@ -323,6 +323,7 @@ Mi affido alla Buteghina</label>
 
 <p class="testo-modulo">
     Hai selezionato uno o più prodotti? Qui puoi indicarci le tue preferenze o aggiungere qualsiasi dettaglio che ritieni importante. Ad esempio puoi specificare il tipo di vino, il gusto di una tisana, una marca preferita oppure qualsiasi altra richiesta.
+    oppure se hai visto una confezione nella galleria che t'interessa puoi semplicemente mette qui il nome, con le oppurtene modifiche se servono, che incideranno sul prezzo.
 </p>
 
 <div class="campo-modulo">
@@ -429,8 +430,85 @@ Privacy Policy
 
 </section>
 </form>
+<section class="galleria-natale">
 
-    
+    <h2>Lasciati ispirare</h2>
+
+    <p class="intro-galleria">
+        Ogni confezione è completamente personalizzabile.
+        Se una delle nostre creazioni ti piace particolarmente,
+        puoi semplicemente indicarne il nome nel modulo e la utilizzeremo
+        come punto di partenza per realizzare la tua confezione.
+    </p>
+
+    <div class="grid-galleria">
+
+    <div class="card-galleria">
+    <img
+        src="images/natale/smeraldo.jpg"
+        alt="Confezione Smeraldo"
+        data-nome="Confezione Smeraldo"
+        data-descrizione="Barattolo di miele, tisana, biscotti artigianali..."
+        data-prezzo="€ 29,90"
+        onclick="apriPopup(this)">
+
+    <div class="nome-confezione">
+        Confezione Smeraldo
+    </div>
+</div>
+
+    <div class="card-galleria">
+    <img
+        src="images/natale/rubino.jpg"
+        alt="Confezione Rubino"
+        data-nome="Confezione Rubino"
+        data-descrizione="Barattolo di miele, tisana, biscotti artigianali..."
+        data-prezzo="€ 29,90"
+        onclick="apriPopup(this)">
+
+    <div class="nome-confezione">
+        Confezione Rubino
+    </div>
+</div>
+
+    <div class="card-galleria">
+    <img
+        src="images/natale/zaffiro.jpg"
+        alt="Confezione Zaffiro"
+        data-nome="Confezione Zaffiro"
+        data-descrizione="Barattolo di miele, tisana, biscotti artigianali..."
+        data-prezzo="€ 29,90"
+        onclick="apriPopup(this)">
+
+    <div class="nome-confezione">
+        Confezione Zaffiro
+    </div>
+</div>
+
+    <div class="card-galleria">
+    <img
+        src="images/natale/perla.jpg"
+        alt="Confezione Perla"
+        data-nome="Confezione Perla"
+        data-descrizione="Barattolo di miele, tisana, biscotti artigianali..."
+        data-prezzo="€ 29,90"
+        onclick="apriPopup(this)">
+
+    <div class="nome-confezione">
+        Confezione Perla
+    </div>
+</div>
+
+</div>
+
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <button class="prev">&#10094;</button>
+    <img id="lightbox-img">
+    <button class="next">&#10095;</button>
+</div>
+
+</section>
 </main>
 <footer>
 
@@ -501,6 +579,7 @@ Privacy Policy
     </div>
 </footer>
 
+<script src="script.js"></script>
 
 <script src="script.js"></script>
 
@@ -512,6 +591,9 @@ menuToggle.addEventListener("click", () => {
     menu.classList.toggle("aperto");
 });
 </script>
+
+
+
 
 </body>
 
