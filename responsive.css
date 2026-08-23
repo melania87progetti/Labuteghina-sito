@@ -1215,3 +1215,341 @@
 }
 
 }
+
+/* =========================================================
+   RESPONSIVE PAGINA NATALE
+   Smartphone e Tablet
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   TABLET
+   da 769px a 1024px
+   --------------------------------------------------------- */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    body.natale {
+        overflow-x: hidden;
+    }
+
+    .galleria-natale {
+        width: 92%;
+        max-width: 900px;
+        margin: 60px auto;
+        padding: 45px 30px;
+    }
+
+    .galleria-natale h2 {
+        font-size: 2.2rem;
+    }
+
+    .intro-galleria {
+        max-width: 650px;
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .grid-galleria {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 25px;
+    }
+
+    .grid-galleria img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Popup tablet */
+
+    .popup-natale {
+        padding: 25px;
+    }
+
+    .popup-natale img {
+        width: 85%;
+        max-width: 650px;
+        max-height: 65vh;
+        object-fit: contain;
+    }
+
+    .info-box {
+        width: 85%;
+        max-width: 650px;
+        padding: 22px;
+    }
+
+    .freccia.sinistra {
+        left: 20px;
+    }
+
+    .freccia.destra {
+        right: 20px;
+    }
+
+    .chiudi {
+        top: 20px;
+        right: 25px;
+        font-size: 40px;
+    }
+}
+
+
+/* ---------------------------------------------------------
+   SMARTPHONE
+   fino a 768px
+   --------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    body.natale {
+        overflow-x: hidden;
+    }
+
+
+    /* =========================
+       GALLERIA
+       ========================= */
+
+    .galleria-natale {
+        width: calc(100% - 24px);
+        max-width: none;
+        margin: 35px auto;
+        padding: 30px 15px;
+        border-radius: 22px;
+    }
+
+    .galleria-natale h2 {
+        font-size: 1.9rem;
+        line-height: 1.2;
+        margin-bottom: 18px;
+    }
+
+    .intro-galleria {
+        width: 100%;
+        max-width: none;
+        font-size: 16px;
+        line-height: 1.65;
+        margin-bottom: 25px;
+    }
+
+
+    /* =========================
+       GRIGLIA FOTO
+       ========================= */
+
+    .grid-galleria {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .card-galleria {
+        width: 100%;
+    }
+
+    .grid-galleria img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+
+    .nome-confezione {
+        display: block;
+        width: fit-content;
+        max-width: 100%;
+        margin: 10px auto 0;
+        padding: 9px 18px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    /* =========================
+       POPUP
+       ========================= */
+
+    .popup-natale {
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .popup-natale.attivo {
+        display: flex;
+    }
+
+    .popup-natale img {
+        display: block;
+        width: 92%;
+        max-width: 92%;
+        max-height: 55vh;
+        height: auto;
+        object-fit: contain;
+        border-radius: 16px;
+    }
+
+
+    /* =========================
+       BOX INFORMAZIONI
+       ========================= */
+
+    .info-box {
+        width: 92%;
+        max-width: 92%;
+        box-sizing: border-box;
+        padding: 18px;
+        margin-top: 0;
+        border-radius: 0 0 18px 18px;
+    }
+
+    .info-box h3 {
+        font-size: 1.25rem;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+
+    .info-box p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .info-box h4 {
+        font-size: 1.2rem;
+        margin-top: 12px;
+    }
+
+
+    /* =========================
+       FRECCE POPUP
+       ========================= */
+
+    .freccia {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 42px;
+        z-index: 10001;
+        padding: 5px;
+    }
+
+    .freccia.sinistra {
+        left: 5px;
+    }
+
+    .freccia.destra {
+        right: 5px;
+    }
+
+
+    /* =========================
+       PULSANTE CHIUDI
+       ========================= */
+
+    .chiudi {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        font-size: 38px;
+        line-height: 1;
+        z-index: 10002;
+    }
+
+
+    /* =========================
+       EVITA TESTI TROPPO GRANDI
+       ========================= */
+
+    .galleria-natale h1,
+    .galleria-natale h2,
+    .galleria-natale h3 {
+        overflow-wrap: break-word;
+    }
+}
+
+
+/* ---------------------------------------------------------
+   TELEFONI MOLTO PICCOLI
+   fino a 480px
+   --------------------------------------------------------- */
+
+@media (max-width: 480px) {
+
+    .galleria-natale {
+        width: calc(100% - 16px);
+        padding: 25px 12px;
+        margin: 25px auto;
+    }
+
+    .galleria-natale h2 {
+        font-size: 1.65rem;
+    }
+
+    .intro-galleria {
+        font-size: 15px;
+    }
+
+    .grid-galleria {
+        gap: 16px;
+    }
+
+    .nome-confezione {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .popup-natale {
+        padding: 10px;
+    }
+
+    .popup-natale img {
+        width: 94%;
+        max-width: 94%;
+        max-height: 50vh;
+    }
+
+    .info-box {
+        width: 94%;
+        max-width: 94%;
+        padding: 15px;
+    }
+
+    .info-box h3 {
+        font-size: 1.15rem;
+    }
+
+    .info-box p {
+        font-size: 14px;
+    }
+
+    .info-box h4 {
+        font-size: 1.1rem;
+    }
+
+    .freccia {
+        font-size: 34px;
+    }
+
+    .freccia.sinistra {
+        left: 0;
+    }
+
+    .freccia.destra {
+        right: 0;
+    }
+
+    .chiudi {
+        top: 8px;
+        right: 8px;
+        font-size: 34px;
+    }
+}
