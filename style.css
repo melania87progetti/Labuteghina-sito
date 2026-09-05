@@ -1849,7 +1849,7 @@ transform:translateY(-3px);
     background:
     linear-gradient(rgba(0,0,0,.35),
     rgba(0,0,0,.35)),
-    url("images/contatti-hero.jpg");
+    url("images/logo/logo.png");
 
     background-size:cover;
     background-position:center;
@@ -2012,13 +2012,7 @@ transform:translateY(-3px);
     display:inline-block;
 }
 
-/* ========================================= */
-/* EVENTI E CATERING */
-/* ========================================= */
 
-/* ========================================= */
-/* RESPONSIVE */
-/* ========================================= */
 
 /* Tablet */
 /* ========================================= */
