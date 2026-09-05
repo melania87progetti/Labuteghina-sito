@@ -4094,81 +4094,106 @@ body.natale{
 
 }
 
+
 /* =========================
    HERO PAPPARE SANO
    ========================= */
 
 .pappare-hero {
-  position: relative;
-  min-height: 430px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  position: relative !important;
+  width: 100% !important;
+  height: 430px !important;
+  min-height: 430px !important;
+
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+  overflow: hidden !important;
+  box-sizing: border-box !important;
 }
 
 .pappare-hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.20);
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+
+  background: rgba(0, 0, 0, 0.20) !important;
 }
 
 .pappare-hero-box {
-  position: relative;
-  z-index: 2;
-  width: min(600px, 80%);
-  padding: 38px 45px;
-  text-align: center;
+  position: relative !important;
+  z-index: 2 !important;
 
-  background: rgba(20, 20, 20, 0.68);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  width: 600px !important;
+  max-width: 80% !important;
 
-  border-radius: 18px;
-  box-sizing: border-box;
+  padding: 38px 45px !important;
+
+  text-align: center !important;
+
+  background: rgba(20, 20, 20, 0.68) !important;
+
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+
+  border-radius: 18px !important;
+
+  box-sizing: border-box !important;
 }
 
 .pappare-hero-eyebrow {
-  display: block;
-  margin-bottom: 15px;
+  display: block !important;
 
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: white;
+  margin: 0 0 15px !important;
+
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+
+  color: white !important;
 }
 
 .pappare-hero-box h1 {
-  margin: 0 0 18px;
+  margin: 0 0 18px !important;
 
-  font-size: 48px;
-  line-height: 1.1;
-  color: white;
+  font-size: 48px !important;
+  line-height: 1.1 !important;
+
+  color: white !important;
 }
 
 .pappare-hero-box p {
-  margin: 0 auto 25px;
-  max-width: 520px;
+  margin: 0 auto 25px !important;
 
-  font-size: 16px;
-  line-height: 1.6;
-  color: white;
+  max-width: 520px !important;
+
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+
+  color: white !important;
 }
 
 .pappare-hero-button {
-  display: inline-block;
+  display: inline-block !important;
 
-  padding: 13px 28px;
-  border-radius: 30px;
+  padding: 13px 28px !important;
 
-  background: #9bd7b0;
-  color: white;
+  border-radius: 30px !important;
 
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
+  background: #9bd7b0 !important;
+  color: white !important;
+
+  text-decoration: none !important;
+
+  font-size: 14px !important;
+  font-weight: 600 !important;
 }
 
 
@@ -4177,20 +4202,22 @@ body.natale{
 @media (max-width: 768px) {
 
   .pappare-hero {
-    min-height: 400px;
+    height: 400px !important;
+    min-height: 400px !important;
   }
 
   .pappare-hero-box {
-    width: 88%;
-    padding: 30px 25px;
+    width: 88% !important;
+    max-width: 88% !important;
+    padding: 30px 25px !important;
   }
 
   .pappare-hero-box h1 {
-    font-size: 36px;
+    font-size: 36px !important;
   }
 
   .pappare-hero-box p {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 
 }
