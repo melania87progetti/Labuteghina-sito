@@ -116,7 +116,93 @@
     }
 
     }
+
+    /* =========================
+   SEZIONE PAPPARE SANO
+   ========================= */
+
+    .pappare-section {
+    width: 100%;
+    max-width: 1100px;
+    margin: 70px auto;
+    padding: 0 30px;
+
+    display: grid;
+    grid-template-columns: 420px 1fr;
+    gap: 70px;
+
+    align-items: center;
+    box-sizing: border-box;
+    }
+
+    .pappare-image {
+    width: 100%;
+    }
+
+    .pappare-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    max-width: 420px;
+    margin: 0 auto;
+
+    border-radius: 12px;
+    }
+
+    .pappare-text {
+    width: 100%;
+    }
+
+    .pappare-label {
+    display: block;
+    margin-bottom: 15px;
+
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    }
+
+    .pappare-text h2 {
+    margin: 0 0 25px;
+
+    font-size: 38px;
+    line-height: 1.2;
+    }
+
+    .pappare-text p {
+    margin: 0 0 18px;
+
+    font-size: 16px;
+    line-height: 1.8;
+    }
+
+
+    /* TELEFONO */
+
+    @media (max-width: 768px) {
+
+    .pappare-section {
+        grid-template-columns: 1fr;
+        gap: 35px;
+
+        margin: 50px auto;
+        padding: 0 20px;
+    }
+
+    .pappare-image img {
+        max-width: 100%;
+    }
+
+    .pappare-text h2 {
+        font-size: 30px;
+    }
+
+    }
+
     </style>
+    
 
 </head>
 
