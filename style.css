@@ -4091,3 +4091,178 @@ body.natale{
 
 }
 
+/* =========================================
+   EVENTI SPECIALI - STILE SPECIFICO
+   ========================================= */
+
+.eventi-speciali {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px 80px;
+}
+
+.eventi-titolo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.eventi-titolo h1 {
+    margin: 0 0 12px;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.eventi-titolo p {
+    margin: 0 auto;
+    max-width: 650px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* CARD EVENTO */
+
+.evento-gin {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 35px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+/* LOCANDINA */
+
+.evento-gin-locandina {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.evento-gin-locandina img {
+    display: block;
+    width: 100%;
+    max-width: 760px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+
+/* TESTO */
+
+.evento-gin-contenuto {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.evento-gin-etichetta {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 6px 14px;
+    background: #292929;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.evento-gin-contenuto h2 {
+    margin: 5px 0 5px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.evento-gin-data {
+    margin: 0 0 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.evento-gin-contenuto p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0 auto 18px;
+}
+
+
+/* PULSANTE WHATSAPP */
+
+.evento-gin-prenota {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 13px 25px;
+    background: #292929;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.evento-gin-prenota:hover {
+    transform: translateY(-2px);
+    opacity: 0.85;
+}
+
+
+/* FOTO DELL'EVENTO */
+
+.evento-gin-foto {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.evento-gin-foto img {
+    display: block;
+    width: 100%;
+    max-width: 760px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+
+/* =========================================
+   VERSIONE MOBILE
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    .eventi-speciali {
+        padding: 40px 15px 60px;
+    }
+
+    .eventi-titolo h1 {
+        font-size: 30px;
+    }
+
+    .eventi-titolo p {
+        font-size: 15px;
+    }
+
+    .evento-gin {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .evento-gin-contenuto h2 {
+        font-size: 27px;
+    }
+
+    .evento-gin-contenuto p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .evento-gin-prenota {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+}
