@@ -4330,20 +4330,19 @@ body.natale{
     }
 }
 
-/* TITOLI UNIFORMI NEI TRE RIQUADRI CATERING */
-.intro-catering .contenitore-proposte h2 {
+/* TITOLI MENU UGUALI A CATERING */
+.intro-catering .contenitore-proposte .hero-content h2 {
     font-family: "Cormorant Garamond", serif !important;
     font-size: 68px !important;
-    font-weight: 700 !important;
+    font-weight: 400 !important;
     line-height: 1.2 !important;
     color: #2f2f2f !important;
     margin-top: 0 !important;
     margin-bottom: 20px !important;
 }
 
-/* TITOLI PIU PICCOLI SU CELLULARE */
 @media (max-width: 800px) {
-    .intro-catering .contenitore-proposte h2 {
+    .intro-catering .contenitore-proposte .hero-content h2 {
         font-size: 36px !important;
     }
 }
