@@ -4742,3 +4742,8 @@ body.natale{
         max-width: 300px;
     }
 }
+
+/* Nasconde temporaneamente il riquadro del menu di Natale */
+.intro-catering .hero-content:has(a[href="menu-natale.html"]) {
+    display: none;
+}
