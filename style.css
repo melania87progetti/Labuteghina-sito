@@ -4313,3 +4313,19 @@ body.natale{
         flex: none;
     }
 }
+
+/* Uniforma i titoli dei tre riquadri */
+.intro-catering .contenitore-proposte .hero-content h2 {
+    font-family: inherit;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+/* Adattamento per schermi più piccoli */
+@media (max-width: 800px) {
+    .intro-catering .contenitore-proposte .hero-content h2 {
+        font-size: 2.2rem;
+    }
+}
