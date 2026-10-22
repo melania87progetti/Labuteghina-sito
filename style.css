@@ -4347,3 +4347,157 @@ body.natale{
         font-size: 36px !important;
     }
 }
+
+/* =========================================
+   PAGINA MENU HALLOWEEN - LA BUTEGHINA
+   ========================================= */
+
+.pagina-menu-halloween {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+    color: #2f2f2f;
+    box-sizing: border-box;
+}
+
+.pagina-menu-halloween *,
+.pagina-menu-halloween *::before,
+.pagina-menu-halloween *::after {
+    box-sizing: border-box;
+}
+
+/* COPERTINA */
+
+.hero-menu-halloween {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #211a20;
+}
+
+.hero-menu-halloween img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/* SEZIONE INTRODUTTIVA */
+
+.locandine-menu-halloween {
+    width: 100%;
+    padding: 55px 24px;
+    text-align: center;
+    background: #f7f3ed;
+}
+
+.locandine-menu-halloween .container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.locandine-menu-halloween h2 {
+    margin: 0 0 16px;
+    color: #2f2f2f;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.locandine-menu-halloween p {
+    margin: 0 auto 32px;
+    max-width: 750px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* DUE LOCANDINE AFFIANCATE */
+
+.locandine-halloween-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+    align-items: start;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.locandina-halloween {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.locandina-halloween img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+}
+
+/* PRENOTAZIONI */
+
+.prenota-menu-halloween {
+    width: 100%;
+    padding: 55px 24px;
+    text-align: center;
+    background: #211a20;
+    color: #fff;
+}
+
+.prenota-menu-halloween .container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.prenota-menu-halloween h2 {
+    margin: 0 0 16px;
+    color: #fff;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 36px;
+}
+
+.prenota-menu-halloween p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.prenota-menu-halloween .btn-hero {
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+/* VERSIONE CELLULARE */
+
+@media (max-width: 700px) {
+    .locandine-menu-halloween {
+        padding: 38px 16px;
+    }
+
+    .locandine-menu-halloween h2,
+    .prenota-menu-halloween h2 {
+        font-size: 29px;
+    }
+
+    .locandine-menu-halloween p,
+    .prenota-menu-halloween p {
+        font-size: 16px;
+    }
+
+    .locandine-halloween-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 24px;
+    }
+
+    .prenota-menu-halloween {
+        padding: 40px 18px;
+    }
+}
