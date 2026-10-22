@@ -4266,3 +4266,42 @@ body.natale{
     }
 
 }
+
+/* PROPOSTE CATERING E MENU STAGIONALI */
+.intro-catering .contenitore-proposte {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    align-items: stretch;
+}
+
+.intro-catering .contenitore-proposte .hero-content {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro-catering .contenitore-proposte .hero-content p {
+    max-width: 100%;
+}
+
+.intro-catering .contenitore-proposte .hero-content .btn-hero {
+    margin-top: 18px;
+}
+
+/* Adattamento per tablet e cellulari */
+@media (max-width: 800px) {
+    .intro-catering .contenitore-proposte {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+}
