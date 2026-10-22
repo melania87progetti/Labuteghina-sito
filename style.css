@@ -4566,3 +4566,179 @@ body.natale{
         box-sizing: border-box;
     }
 }
+
+/* ==========================================
+   PAGINA MENU DI NATALE
+   Tutte le classi sono specifiche della pagina
+========================================== */
+
+.pagina-menu-natale {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+    color: #2f2f2f;
+    box-sizing: border-box;
+}
+
+.pagina-menu-natale *,
+.pagina-menu-natale *::before,
+.pagina-menu-natale *::after {
+    box-sizing: border-box;
+}
+
+/* HERO */
+
+.hero-menu-natale {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #211a20;
+}
+
+.hero-menu-natale img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/* SEZIONE LOCANDINE */
+
+.locandine-menu-natale {
+    width: 100%;
+    padding: 55px 24px;
+    text-align: center;
+    background: #f7f3ed;
+}
+
+.locandine-menu-natale .container,
+.prenota-menu-natale .container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.locandine-menu-natale h2,
+.box-prenota-menu-natale h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.locandine-menu-natale p,
+.box-prenota-menu-natale p {
+    max-width: 750px;
+    margin: 0 auto 30px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* GRIGLIA DELLE LOCANDINE */
+
+.locandine-menu-natale-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+    align-items: start;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.locandina-menu-natale {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.locandina-menu-natale img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+}
+
+/* SEZIONE PRENOTAZIONE */
+
+.prenota-menu-natale {
+    width: 100%;
+    padding: 45px 20px;
+    background: #f4eee4;
+}
+
+.box-prenota-menu-natale {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 35px 25px;
+    text-align: center;
+    background: #fffaf2;
+    border: 1px solid #d8c6aa;
+    border-radius: 18px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+.box-prenota-menu-natale h2 {
+    margin: 0 0 15px;
+    color: #2f2635;
+}
+
+.box-prenota-menu-natale p {
+    margin-bottom: 25px;
+    color: #51475a;
+}
+
+/* PULSANTI */
+
+.pulsanti-menu-natale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.pulsanti-menu-natale .btn-hero {
+    margin: 0;
+    text-align: center;
+}
+
+/* VERSIONE MOBILE */
+
+@media (max-width: 700px) {
+
+    .locandine-menu-natale {
+        padding: 38px 16px;
+    }
+
+    .locandine-menu-natale h2,
+    .box-prenota-menu-natale h2 {
+        font-size: 29px;
+    }
+
+    .locandine-menu-natale p,
+    .box-prenota-menu-natale p {
+        font-size: 16px;
+    }
+
+    .locandine-menu-natale-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 24px;
+    }
+
+    .box-prenota-menu-natale {
+        padding: 28px 18px;
+    }
+
+    .pulsanti-menu-natale {
+        flex-direction: column;
+    }
+
+    .pulsanti-menu-natale .btn-hero {
+        width: 100%;
+        max-width: 300px;
+    }
+}
