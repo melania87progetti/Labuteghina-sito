@@ -4271,18 +4271,20 @@ body.natale{
 .intro-catering .contenitore-proposte {
     width: min(1200px, 92%);
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 24px;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
     align-items: stretch;
+    gap: 24px;
 }
 
-.intro-catering .contenitore-proposte .hero-content {
-    width: 100%;
+.intro-catering .contenitore-proposte > .hero-content {
+    flex: 1 1 0;
+    width: 0;
     max-width: none;
     min-width: 0;
-    box-sizing: border-box;
     margin: 0;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4290,18 +4292,24 @@ body.natale{
     text-align: center;
 }
 
-.intro-catering .contenitore-proposte .hero-content p {
+.intro-catering .contenitore-proposte > .hero-content p {
     max-width: 100%;
 }
 
-.intro-catering .contenitore-proposte .hero-content .btn-hero {
+.intro-catering .contenitore-proposte > .hero-content .btn-hero {
     margin-top: 18px;
 }
 
-/* Adattamento per tablet e cellulari */
+/* Su tablet e cellulare */
 @media (max-width: 800px) {
     .intro-catering .contenitore-proposte {
-        grid-template-columns: 1fr;
-        gap: 22px;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .intro-catering .contenitore-proposte > .hero-content {
+        width: 100%;
+        max-width: 450px;
+        flex: none;
     }
 }
