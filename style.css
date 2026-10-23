@@ -4903,3 +4903,20 @@ body.natale{
         width: 100%;
     }
 }
+
+/* Video Calendario dell'Avvento */
+.video-calendario {
+    width: 100%;
+    max-width: 380px;
+    margin: 25px auto;
+}
+
+.video-calendario video {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 75vh;
+    object-fit: contain;
+    border-radius: 16px;
+    background: #211b17;
+}
