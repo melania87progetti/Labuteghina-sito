@@ -4799,3 +4799,107 @@ body.natale{
         font-size: 1.6rem;
     }
 }
+
+/* PAGINA CALENDARIO DELL'AVVENTO */
+
+.pagina-calendario {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px 18px 50px;
+    box-sizing: border-box;
+}
+
+.hero-calendario,
+.sezione-calendario {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 35px;
+    background: rgba(255, 253, 245, 0.94);
+    border-radius: 24px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.hero-calendario h1 {
+    color: #7b2634;
+    margin: 12px 0 20px;
+}
+
+.hero-calendario .intro-calendario {
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+
+.locandina-calendario {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 12px;
+}
+
+.prezzo-calendario {
+    color: #7b2634;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.scadenza-calendario {
+    color: #7b2634;
+    font-weight: bold;
+}
+
+.sezione-calendario h2 {
+    color: #526f5c;
+    margin-top: 0;
+}
+
+.sezione-calendario p {
+    line-height: 1.8;
+}
+
+.lista-calendario {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+    margin: 10px auto 20px;
+}
+
+.btn-calendario {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 14px 24px;
+    background: #7b2634;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.2s ease;
+}
+
+.btn-calendario:hover {
+    background: #54202a;
+}
+
+@media (max-width: 600px) {
+    .pagina-calendario {
+        padding: 15px 10px 30px;
+    }
+
+    .hero-calendario,
+    .sezione-calendario {
+        margin: 20px auto;
+        padding: 24px 18px;
+        border-radius: 18px;
+    }
+
+    .hero-calendario h1 {
+        font-size: 1.7rem;
+    }
+
+    .locandina-calendario {
+        width: 100%;
+    }
+}
