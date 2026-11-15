@@ -4743,8 +4743,8 @@ body.natale{
     }
 }
 
-/* Nasconde temporaneamente il riquadro del menu di Natale */
-.intro-catering .hero-content:has(a[href="menu-natale.html"]) {
+/* Nasconde temporaneamente il riquadro del menu di Halloween */
+.intro-catering .hero-content:has(a[href="menu-halloween.html"]) {
     display: none;
 }
 
@@ -4919,4 +4919,8 @@ body.natale{
     object-fit: contain;
     border-radius: 16px;
     background: #211b17;
+}
+/* NASCONDE TEMPORANEAMENTE IL CALENDARIO DELL'AVVENTO */
+.hero-calendario {
+    display: none !important;
 }
