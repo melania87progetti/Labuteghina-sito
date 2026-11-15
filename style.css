@@ -4925,3 +4925,58 @@ body.natale{
 .hero-calendario {
     display: none !important;
 }
+
+/* RIQUADRO IDEE REGALO NATALE */
+
+.hero-regali {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 40px 30px;
+    text-align: center;
+    background: rgba(255, 253, 245, 0.94);
+    border-radius: 24px;
+    box-sizing: border-box;
+}
+
+.hero-regali h1 {
+    color: #7b2634;
+    margin: 12px 0;
+}
+
+.hero-regali p {
+    line-height: 1.7;
+}
+
+.link-regali {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+
+.btn-regalo {
+    display: inline-block;
+    padding: 13px 24px;
+    background: #7b2634;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.2s ease;
+}
+
+.btn-regalo:hover {
+    background: #54202a;
+}
+
+@media (max-width: 600px) {
+    .hero-regali {
+        margin: 20px 12px;
+        padding: 28px 18px;
+    }
+
+    .hero-regali h1 {
+        font-size: 1.6rem;
+    }
+}
