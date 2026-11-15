@@ -4653,11 +4653,12 @@ body.natale{
     padding: 0;
 }
 
-.locandina-menu-natale img {
+.locandine-menu-natale img {
     display: block;
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 320px;
+    object-fit: contain;
     border-radius: 10px;
     box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
 }
